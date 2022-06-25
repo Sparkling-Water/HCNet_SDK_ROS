@@ -1,0 +1,6 @@
+<launch>
+    <rosparam command="load" file="$(find hcnet_sdk)/config/camera.yaml" />
+
+    <node pkg="hcnet_sdk" type="hcnet_sdk" name="hcnet_sdk" output="screen" respawn="false"/> 
+
+</launch>
