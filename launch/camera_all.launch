@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="hcnet_sdk" type="hcnet_sdk" name="hcnet_sdk" output="screen" respawn="false" ns="camera1"> 
+        <rosparam command="load" file="$(find hcnet_sdk)/config/camera1.yaml" />
+    </node>
+
+    <node pkg="hcnet_sdk" type="hcnet_sdk" name="hcnet_sdk" output="screen" respawn="false" ns="camera2"> 
+        <rosparam command="load" file="$(find hcnet_sdk)/config/camera2.yaml" />
+    </node>
+</launch>

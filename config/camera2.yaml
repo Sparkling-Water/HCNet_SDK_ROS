@@ -1,0 +1,13 @@
+camera:
+  connect_time:        2000                # 相机连接时间
+  reconnect_time:      10000               # 相机重连时间
+  asyn_login:          0                   # 0:同步登录方式
+  device_address:      "192.168.20.5"      # IP
+  port:                8000                # 端口
+  user_name:           "admin"             # 用户名
+  password:            "12345"        # pw
+  frame_height:        1080        # 图像高度
+  frame_width:         1920        # 图像宽度
+
+topic:
+  img_topic_name:      "hcnet_img"  # 发布图像的话题名
